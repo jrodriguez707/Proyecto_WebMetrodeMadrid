@@ -18,6 +18,10 @@ a{
     font-family: "Sans Stack";
     src: url(../fonts/static/StackSansNotch-ExtraLight.ttf);
 }
+@font-face{
+    font-family:"Elms Sans";
+    src: url(../fonts/Elms_Sans/ElmsSans-VariableFont_wght.ttf);
+}
 
 
 .cabecera {
@@ -50,12 +54,14 @@ a{
     gap: 15px;
     flex-wrap: wrap;
     align-content: space-evenly;
+    letter-spacing: 2px;
+    font-weight: 1;
 }
 
 .menu__opcion {
     color: var(--metro-blanco);
-    font-family: "Sans Stack";
-    font-size: 0.7rem;
+    font-family: "Elms Sans";
+    font-size: 1rem;
 
 }
 
@@ -67,3 +73,37 @@ footer{
     display: flex;
     justify-content: center;
 }
+.lineas{
+    display: flex;
+
+}
+.linea{
+    font-family: "Sans Stack";
+    text-align: center;
+    font-size: 2rem;
+}
+
+.linea__titulo{
+    font-family: "Elms Sans";
+}
+
+.linea__paradas{
+    font-family: "Elms Sans";
+}
+/*HAY QUE CAMBIARLO ACUERDATE SUBNORMAL
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background: grey;
+  gap: 10px;
+}
+
+.item {
+  background: blue;
+  color: #fff;
+  font-size: 2rem;
+}
+flexbox froggy
+flexbox defense
+grid garden
+  */
